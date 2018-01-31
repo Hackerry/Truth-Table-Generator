@@ -1,6 +1,6 @@
 # Truth-Table-Generator
 This GUI generates truth table of some simple logic.
-This updated version uses StringBuilder instead of multiple lists. It's more straightforward and deals with variables that are two or more character long. The test I run may not be exhausted but in many simple cases, it runs correctly.
+This updated version uses StringBuilder instead of multiple lists. It's more straightforward and deals with variables that are two or more characters long. The tests I run may not be exhausted but in many simple cases, it runs correctly.
 
 ShortCut:
 Ctrl+N = NOT
