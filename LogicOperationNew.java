@@ -130,7 +130,10 @@ public class LogicOperationNew extends Application {
         vars.sort(new Comparator<String>(){
             @Override
             public int compare(String arg0, String arg1) {
-                return arg0.length()-arg1.length();
+                //First compare length, then lexicogrphical order
+                int length = arg0.length()-arg1.length();
+                if(length == 0) return arg0.compareTo(arg1);
+                else return length;
             }
         });
         //System.out.println(vars);
