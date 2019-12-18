@@ -1,13 +1,13 @@
 # Truth-Table-Generator
-This GUI generates truth table of some simple logic.
-This updated version uses StringBuilder instead of multiple lists. It's more straightforward and deals with variables that are two or more characters long. The tests I run may not be exhausted but in many simple cases, it runs correctly.
+This two programs generate truth tables for first-order logic expressions.
+An updated version (LogicOperationNew.java) uses StringBuilder instead of multiple lists to process expressions. This new version also supports variables of two or more characters long.
 
-ShortCut:
-Ctrl+N = NOT
-Ctrl+A = AND
-Ctrl+O = OR
-Ctrl+I = IMPLY
-Ctrl+B = BICONDITIONAL
-Binary Ouput means the result will be shown with 0/1 instead of T/F
+ShortCut:<br>
+<b>Ctrl+N</b> = NOT<br>
+<b>Ctrl+A</b> = AND<br>
+<b>Ctrl+O</b> = OR<br>
+<b>Ctrl+I</b> = IMPLY<br>
+<b>Ctrl+B</b> = BICONDITIONAL<br>
+"Binary Ouput" means the result will be shown with 0/1 instead of F/T<br>
 
-Capital T means TRUE and capital F means FALSE.
+Capital <b>T</b> means TRUE and capital <b>F</b> means FALSE.
